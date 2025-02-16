@@ -12,19 +12,18 @@ const Navbar = () => {
         <div className="container flex items-center justify-between mx-auto p-10">
             <div>
               <Link>
-              <img className="w-[300px] h-full" src={logo} alt="" />
+              <img className="w-[200px] h-full" src={logo} alt="" />
               </Link>
                 
                
             </div>
-            <div className="text-white flex gap-8">
-            
-
-
-                <h3 className="text-xl">Welcome</h3>
-                <h3 className="text-xl">Features</h3>
-                <h3 className="text-xl">FAQs</h3>
-            </div>
+            <div className="text-white bg-white/10 px-9 rounded-full py-3 backdrop-blur-md flex gap-8 border border-white/10 shadow-lg">
+                    <h3 className="text-xl">Welcome</h3>
+                    <h3 className="text-xl">Features</h3>
+                    <h3 className="text-xl">FAQs</h3>
+                    <h3 className="text-xl">FAQs</h3>
+                    <h3 className="text-xl">FAQs</h3>
+                </div>
             {
               isSignedIn ? <>
               <div className="w-[100px] flex gap-4 items-center px-4 py-2 rounded-full bg-white shadow-2xl shadow-fuchsia-600">
