@@ -3,6 +3,7 @@ import Banner from "./Banner/Banner";
 import Features from "./Fetures/Features";
 import Footer from "./Footer";
 import Navbar from "./Navbar/Navbar";
+import Optoins from "./Options/Optoins";
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
              <Navbar/>
             <Banner/>
             <Features/>
+            <Optoins/>
             <Footer/>
            
         </div>
